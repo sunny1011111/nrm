@@ -1,25 +1,27 @@
-nrm -- NPM registry manager
-===
+# nrm -- NPM registry manager
 
 [![NPM version][npm-image]][npm-url]
 
 `nrm` can help you easy and fast switch between different npm registries,
 now include: `npm`, `cnpm`, `taobao`, `nj(nodejitsu)`.
 
+本仓库 fork 自[官方仓库](https://github.com/Pana/nrm)，因为官方发包出现问题，不显示当前仓库的\*，因此自己发个包 供自己和他人使用
+
 ## How to configure yarn to use private registry ?
+
 just add .yarnrc in your project’s directory and write there:
 `registry “http://your.registry”`
 
 Or you can configure it in your HOME directory's .yarnrc
 
-
 ## Install
 
 ```
-$ npm install -g nrm
+$ npm i nrm-sunny1011111 -g
 ```
 
 ## Example
+
 ```
 $ nrm ls
 
@@ -80,20 +82,19 @@ Usage: nrm [options] [command]
 
 ## Registries
 
-* [npm](https://www.npmjs.org)
-* [yarn](https://yarnpkg.com)
-* [cnpm](http://cnpmjs.org)
-* [nodejitsu](https://www.nodejitsu.com)
-* [taobao](https://npmmirror.com)
+- [npm](https://www.npmjs.org)
+- [yarn](https://yarnpkg.com)
+- [cnpm](http://cnpmjs.org)
+- [nodejitsu](https://www.nodejitsu.com)
+- [taobao](https://npmmirror.com)
 
 ## Related Projects
 
-* [verdaccio--A lightweight private npm proxy registry](https://verdaccio.org/)
+- [verdaccio--A lightweight private npm proxy registry](https://verdaccio.org/)
 
-## TODO 
+## TODO
 
 1. Add more registry: github, [sonatype](https://help.sonatype.com/repomanager3/formats/npm-registry), [sap](https://help.sap.com/viewer/4505d0bdaf4948449b7f7379d24d0f0d/2.0.03/en-US/726e5d41462c4eb29eaa6cc83ff41e84.html)
-
 
 ## Notice
 
@@ -105,13 +106,13 @@ When you are using a custom registry you will need to run the `set-hosted-repo` 
 If you find nrm is useful and is a experienced node.js developer, then you can help maintain nrm.
 If you have the interest you can reach me through email: pana.wang@outlook.com
 
-## Contributors 
+## Contributors
 
-* [EmilyMew](https://github.com/EmilyMew)
+- [EmilyMew](https://github.com/EmilyMew)
 
 ## LICENSE
-MIT
 
+MIT
 
 [npm-image]: https://img.shields.io/npm/v/nrm.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/nrm

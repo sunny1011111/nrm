@@ -1,8 +1,10 @@
 {
   "name": "nrm-sunny1011111",
-  "version": "1.2.5",
-  "description": "官方原版不显示*，不显示current，因此自己发了一个",
-  "bin": "./cli.js",
+  "version": "1.2.7",
+  "description": "官方原版不显示*,不显示current,因此自己发了一个",
+  "bin": {
+    "nrm": "./cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/Pana/nrm.git"
